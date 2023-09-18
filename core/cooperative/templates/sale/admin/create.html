@@ -1,0 +1,275 @@
+{% extends 'form.html' %}
+{% load widget_tweaks %}
+{% load cooperative_extras %}
+{% load static %}
+{% block assets_form %}
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-touchspin-4.2.5/css/jquery.bootstrap-touchspin.css' %}"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.2.5/js/jquery.bootstrap-touchspin.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/js/tempusdominus-bootstrap.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/tempusdominus-bootstrap-4.5.37.0/css/tempusdominus-bootstrap.css' %}"/>
+    <script src="{% static 'lib/socket.io-4.5.4/socket.io.min.js' %}"></script>
+    <script src="{% static 'sale/admin/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        <i class="fas fa-ticket-alt"></i> Detalle de Boletos
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.place.label }}:</label>
+                                {{ form.place }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.bus.label }}:</label>
+                                {{ form.bus }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.route.label }}:</label>
+                                {{ form.route }}
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tickets"></div>
+                            <table style="width:100%;" class="table table-bordered table-sm"
+                                   id="tblTickets">
+                                <thead>
+                                <tr>
+                                    <th>Bus</th>
+                                    <th>Destino</th>
+                                    <th>H.Salida</th>
+                                    <th>Anden</th>
+                                    <th>Asiento</th>
+                                    <th>Precio</th>
+                                    <th>Opción</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <button type="button"
+                                    class="btn btn-danger btn-block btn-sm btnRemoveTicketsAll">
+                                <i class="fas fa-trash-alt"></i> Eliminar todo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        <i class="fas fa-shopping-cart"></i> Facturación
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label>{{ form.client.label }}:</label>
+                                <div class="input-group input-group-search">
+                                    {{ form.client }}
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary dropdown-toggle"
+                                                type="button"
+                                                data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false"><i
+                                                class="fas fa-tasks"></i>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right"
+                                             style="cursor: pointer;">
+                                            <a class="dropdown-item btnAddClient">
+                                                <i class="fas fa-plus"></i> Crear cliente
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.payment_method.label }}:</label>
+                                {{ form.payment_method }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.type_voucher.label }}:</label>
+                                {{ form.type_voucher }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.amount.label }}:</label>
+                                {{ form.amount }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rowVents">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>{{ form.cash.label }}:</label>
+                                {{ form.cash }}
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>{{ form.change.label }}:</label>
+                                {{ form.change }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rowVents">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_number.label }}:</label>
+                                {{ form.card_number }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_titular.label }}:</label>
+                                {{ form.card_titular }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_amount_debited.label }}:</label>
+                                {{ form.card_amount_debited }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rowVents">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_type.label }}:</label>
+                                {{ form.card_type }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_year.label }}:</label>
+                                {{ form.card_year }}
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>{{ form.card_code_verification.label }}:</label>
+                                <div class="input-group">
+                                    {{ form.card_code_verification }}
+                                    <span class="input-group-append">
+                                                    <button type="button" class="btn btn-success btn-flat btnShowCodeVerif">
+                                                        <i class="far fa-eye"></i>
+                                                    </button>
+                                                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <table class="table table-bordered table-sm">
+                        <tbody>
+                        <tr>
+                            <td><b>SUBTOTAL</b></td>
+                            <td>{{ form.subtotal }}</td>
+                        </tr>
+                        <tr>
+                            <td><b>IVA %</b></td>
+                            <td>{{ form.iva }}</td>
+                        </tr>
+                        <tr>
+                            <td><b>VALOR IVA</b></td>
+                            <td>{{ form.total_iva }}</td>
+                        </tr>
+                        <tr>
+                            <td><b>TOTAL A PAGAR</b></td>
+                            <td>{{ form.total }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content_form_before %}
+    <div id="myModalClient" class="modal fade" role="dialog">
+        <form class="form" id="frmClient" method="POST" autocomplete="off">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold">
+                            <i class="fa fa-plus"></i> Nuevo registro de un cliente
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            {% for field in frmUser.visible_fields %}
+                                <div class="form-group">
+                                    <label>{{ field.label }}:</label>
+                                    {{ field }}
+                                </div>
+                            {% endfor %}
+                            {% for field in frmClient.visible_fields %}
+                                <div class="form-group">
+                                    <label>{{ field.label }}:</label>
+                                    {{ field }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary btn-flat btn-block">
+                                <i class="fas fa-save"></i> Guardar registro
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script type="application/javascript">
+        var socket_url = '{{ socket_url }}';
+        sale.details.iva = {{ company.get_iva }};
+        $(function () {
+            sale.listTickets();
+        });
+    </script>
+    <script src="{% static 'sale/socketio/js/socket.js' %}"></script>
+{% endblock %}
+
+{% block buttons %}
+    <button type="submit" class="btn btn-primary btn-flat">
+        <i class="fas fa-file-invoice-dollar"></i> Facturar e imprimir
+    </button>
+    <a href="{{ list_url }}" class="btn btn-danger btn-flat">
+        <i class="fas fa-times"></i> Cancelar
+    </a>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'list.html' %}
+{% load static %}
+{% block assets_list %}
+    <script src="{% static 'route/client/js/list.js' %}"></script>
+{% endblock %}
+
+{% block columns %}
+    <th>Id</th>
+    <th>Bus</th>
+    <th>Anden</th>
+    <th>Chofer</th>
+    <th>Hora de salida</th>
+    <th>Destino</th>
+    <th>Precio</th>
+    <th>Estado</th>
+{% endblock %}
+
+{% block javascript_list %}
+
+{% endblock %}
+
+{% block box_footer %}
+
+{% endblock %}

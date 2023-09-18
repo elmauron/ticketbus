@@ -1,0 +1,40 @@
+{% extends 'report.html' %}
+{% load static %}
+{% block assets_report %}
+    <script src="{% static 'client_report/js/report.js' %}" type="text/javascript"></script>
+{% endblock %}
+
+{% block content_report %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.search.label }}:</label>
+                <div class="input-group">
+                    {{ form.search }}
+                    <span class="input-group-append">
+                    <button type="button" class="btn btn-primary btn-fla btnClearSearch">
+                        <i class="fas fa-times"></i>
+                    </button>
+                  </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <hr>
+            <table class="table table-bordered table-sm" id="tblReport" style="width:100%;">
+                <thead>
+                <tr>
+                    <th style="width: 40%;">Nombres</th>
+                    <th style="width: 15%;">Número de documento</th>
+                    <th style="width: 15%;">Celular</th>
+                    <th style="width: 15%;">Email</th>
+                    <th style="width: 15%;">Dirección</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

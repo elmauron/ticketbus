@@ -1,0 +1,23 @@
+{% extends 'form.html' %}
+{% load static %}
+{% load cooperative_extras %}
+{% block assets_form %}
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-touchspin-4.2.5/css/jquery.bootstrap-touchspin.css' %}"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.2.5/js/jquery.bootstrap-touchspin.js' %}"></script>
+    <script src="{% static 'company/js/form.js' %}"></script>
+{% endblock %}
+
+{% block form_fields %}
+    {% for fields in form|split_form_fields:2 %}
+        <div class="row g-3">
+            {% for field in fields %}
+                <div class="col">
+                    <div class="form-group">
+                        <label for="{{ field.label }}">{{ field.label }}:</label>
+                        {{ field }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

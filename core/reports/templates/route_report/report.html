@@ -1,0 +1,51 @@
+{% extends 'report.html' %}
+{% load static %}
+{% block assets_report %}
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}">
+    <script src="{% static 'route_report/js/report.js' %}" type="text/javascript"></script>
+{% endblock %}
+
+{% block content_report %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.place.label }}:</label>
+                {{ form.place }}
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.bus.label }}:</label>
+                {{ form.bus }}
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label>{{ form.chauffeur.label }}:</label>
+                {{ form.chauffeur }}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <hr>
+            <table class="table table-bordered table-sm" id="tblReport" style="width:100%;">
+                <thead>
+                <tr>
+                    <th style="width: 15%;">Bus</th>
+                    <th style="width: 10%;">Anden</th>
+                    <th style="width: 20%;">Chofer</th>
+                    <th style="width: 20%;">Hora de salida</th>
+                    <th style="width: 15%;">Destino</th>
+                    <th style="width: 10%;">Precio</th>
+                    <th style="width: 10%;">Estado</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

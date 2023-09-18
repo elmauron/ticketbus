@@ -1,0 +1,5377 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can view Dashboard",
+    "content_type": 7,
+    "codename": "view_dashboard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add Módulo",
+    "content_type": 10,
+    "codename": "add_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change Módulo",
+    "content_type": 10,
+    "codename": "change_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete Módulo",
+    "content_type": 10,
+    "codename": "delete_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can view Módulo",
+    "content_type": 10,
+    "codename": "view_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 13,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 13,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 13,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 13,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can add Marca",
+    "content_type": 14,
+    "codename": "add_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can change Marca",
+    "content_type": 14,
+    "codename": "change_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can delete Marca",
+    "content_type": 14,
+    "codename": "delete_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can view Marca",
+    "content_type": 14,
+    "codename": "view_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add Bus",
+    "content_type": 15,
+    "codename": "add_bus"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change Bus",
+    "content_type": 15,
+    "codename": "change_bus"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete Bus",
+    "content_type": 15,
+    "codename": "delete_bus"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can view Bus",
+    "content_type": 15,
+    "codename": "view_bus"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 16,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 16,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 16,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 16,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can add Chofer",
+    "content_type": 17,
+    "codename": "add_chauffeur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can change Chofer",
+    "content_type": 17,
+    "codename": "change_chauffeur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can delete Chofer",
+    "content_type": 17,
+    "codename": "delete_chauffeur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can view Chofer",
+    "content_type": 17,
+    "codename": "view_chauffeur"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can add Cliente",
+    "content_type": 18,
+    "codename": "add_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can change Cliente",
+    "content_type": 18,
+    "codename": "change_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can delete Cliente",
+    "content_type": 18,
+    "codename": "delete_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can view Cliente",
+    "content_type": 18,
+    "codename": "view_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can view Company",
+    "content_type": 19,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can add Modelo",
+    "content_type": 20,
+    "codename": "add_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can change Modelo",
+    "content_type": 20,
+    "codename": "change_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can delete Modelo",
+    "content_type": 20,
+    "codename": "delete_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can view Modelo",
+    "content_type": 20,
+    "codename": "view_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can add Socio",
+    "content_type": 21,
+    "codename": "add_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can change Socio",
+    "content_type": 21,
+    "codename": "change_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can delete Socio",
+    "content_type": 21,
+    "codename": "delete_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can view Socio",
+    "content_type": 21,
+    "codename": "view_member"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can add Lugar",
+    "content_type": 22,
+    "codename": "add_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can change Lugar",
+    "content_type": 22,
+    "codename": "change_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can delete Lugar",
+    "content_type": 22,
+    "codename": "delete_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can view Lugar",
+    "content_type": 22,
+    "codename": "view_place"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can add Ruta",
+    "content_type": 23,
+    "codename": "add_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can change Ruta",
+    "content_type": 23,
+    "codename": "change_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can delete Ruta",
+    "content_type": 23,
+    "codename": "delete_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can view Ruta",
+    "content_type": 23,
+    "codename": "view_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view Acceso del usuario",
+    "content_type": 6,
+    "codename": "view_access_users"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can delete Acceso del usuario",
+    "content_type": 6,
+    "codename": "delete_access_users"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can view Respaldo de BD",
+    "content_type": 8,
+    "codename": "view_database_backups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can add Respaldo de BD",
+    "content_type": 8,
+    "codename": "add_database_backups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can delete Respaldo de BD",
+    "content_type": 8,
+    "codename": "delete_database_backups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can view Tipo de Módulo",
+    "content_type": 9,
+    "codename": "view_module_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can add Tipo de Módulo",
+    "content_type": 9,
+    "codename": "add_module_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can change Tipo de Módulo",
+    "content_type": 9,
+    "codename": "change_module_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can delete Tipo de Módulo",
+    "content_type": 9,
+    "codename": "delete_module_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can view Ruta | Cliente",
+    "content_type": 23,
+    "codename": "view_client_route"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can view Venta | Admin",
+    "content_type": 24,
+    "codename": "view_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can add Venta | Admin",
+    "content_type": 24,
+    "codename": "add_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can delete Venta | Admin",
+    "content_type": 24,
+    "codename": "delete_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 97,
+  "fields": {
+    "name": "Can view Venta | Cliente",
+    "content_type": 24,
+    "codename": "view_client_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 98,
+  "fields": {
+    "name": "Can add Venta | Cliente",
+    "content_type": 24,
+    "codename": "add_client_sale"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Administrador",
+    "permissions": [
+      9,
+      10,
+      11,
+      12,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      95,
+      96,
+      94,
+      85,
+      84,
+      87,
+      88,
+      86,
+      31,
+      32,
+      33,
+      34,
+      90,
+      91,
+      92,
+      89,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Cliente",
+    "permissions": [
+      93,
+      98,
+      97
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "security",
+    "model": "accessusers"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "security",
+    "model": "dashboard"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "security",
+    "model": "databasebackups"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "security",
+    "model": "moduletype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "security",
+    "model": "module"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "security",
+    "model": "grouppermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "security",
+    "model": "groupmodule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "user",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "brand"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "bus"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "chauffeur"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "client"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "exemplar"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "member"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "place"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "route"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "sale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 25,
+  "fields": {
+    "app_label": "cooperative",
+    "model": "saledetail"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0zv2hgji9waft9w6oz4rwn5xlhwax6lg",
+  "fields": {
+    "session_data": ".eJx9kc1uEzEQx0vapCHlQ1C-KhDkSA_ZUCfbTW-oHDhURQgeYDVrz8ZuN7sr2xuph0pwALWSbzWPwStw4cUYbwrqCV-s8cz85zd_f-n--NVZa8-5f-3uptBYmTYGdaqEd7eYdw9vvGXAT7GkxK44gXJeRbwqrVZZFEqi66yJjiuBxeHf2vs3BCQY6d1bziYxn-VJImI2ZXwaH8R8T_A93E8OEpEJMU1i4DCN9-MJE2wym74R2Qx4LhIWM8a968511dTePb4GEVm0CFMNURj07l4bpU1ZK35aoL_ybiNgUOf7tvO7_-Y_-bB0LzUWLHrZd4OW_HMbXvndr6s8CKHKub90HZF5tykwh6aw3t3JFRbCpBy4RCptMtch1446bqOEBUFsvisUlqRFHqw40yVqo6qSMCYRi1jo6RFqQ4hy4PoGeaOVPfOud7x6_ccpH8jtFZF8cimfymdyJ4yUz4-23XqjC-92xryqatRg1RLHBgoc8xZg7OULNzisCrSof_-ElT2kntqzGsNPf3BbAg3XqrYt3egj6oWyOASxUKUyVoMeFmCGS5KjS-CwqMwwC5KVIW8VD22PcsrlMDKyqmvybMRBk1FdtYA5ubDm3ZYywQOrOBTk6G0KgQdef-EGIaeMymjtC_lSviJz-rRZSoPtf9droj-7NQ8Y:1o8CNC:6tachugB2pv4C8BLTZFoyEtAyPQNFWE7E1hrB1ReiTU",
+    "expire_date": "2022-07-18T03:03:42.533Z"
+  }
+},
+{
+  "model": "security.dashboard",
+  "pk": 1,
+  "fields": {
+    "name": "BUSIKET WEB",
+    "image": "",
+    "icon": "fas fa-bus-alt",
+    "layout": 1,
+    "card": " ",
+    "navbar": "navbar-dark navbar-primary",
+    "brand_logo": " ",
+    "sidebar": "sidebar-dark-navy"
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 1,
+  "fields": {
+    "name": "Seguridad",
+    "icon": "fas fa-lock",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 2,
+  "fields": {
+    "name": "Cooperativa",
+    "icon": "fas fa-city",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 3,
+  "fields": {
+    "name": "Vehículos",
+    "icon": "fas fa-car",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 4,
+  "fields": {
+    "name": "Facturación",
+    "icon": "fas fa-shopping-cart",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 5,
+  "fields": {
+    "name": "Reportes",
+    "icon": "fas fa-chart-pie",
+    "is_active": true
+  }
+},
+{
+  "model": "security.module",
+  "pk": 1,
+  "fields": {
+    "url": "/security/module/type/",
+    "name": "Tipos de Módulos",
+    "module_type": 1,
+    "description": "Permite administrar los tipos de módulos del sistema",
+    "icon": "fas fa-door-open",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      90,
+      91,
+      92,
+      89
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 2,
+  "fields": {
+    "url": "/security/module/",
+    "name": "Módulos",
+    "module_type": 1,
+    "description": "Permite administrar los módulos del sistema",
+    "icon": "fas fa-th-large",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 3,
+  "fields": {
+    "url": "/security/group/",
+    "name": "Grupos",
+    "module_type": 1,
+    "description": "Permite administrar los grupos de usuarios del sistema",
+    "icon": "fas fa-users",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 4,
+  "fields": {
+    "url": "/security/database/backups/",
+    "name": "Respaldos",
+    "module_type": 1,
+    "description": "Permite administrar los respaldos de base de datos",
+    "icon": "fas fa-database",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      87,
+      88,
+      86
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 5,
+  "fields": {
+    "url": "/security/dashboard/update/",
+    "name": "Conf. Dashboard",
+    "module_type": 1,
+    "description": "Permite configurar los datos de la plantilla",
+    "icon": "fas fa-tools",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 6,
+  "fields": {
+    "url": "/security/access/users/",
+    "name": "Accesos",
+    "module_type": 1,
+    "description": "Permite administrar los accesos de los usuarios",
+    "icon": "fas fa-user-secret",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      85,
+      84
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 7,
+  "fields": {
+    "url": "/user/",
+    "name": "Usuarios",
+    "module_type": 1,
+    "description": "Permite administrar a los usuarios del sistema",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 8,
+  "fields": {
+    "url": "/cooperative/company/update/",
+    "name": "Compañia",
+    "module_type": 2,
+    "description": "Permite gestionar la información de la compañia",
+    "icon": "fas fa-building",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      59
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 9,
+  "fields": {
+    "url": "/cooperative/member/",
+    "name": "Socios",
+    "module_type": 2,
+    "description": "Permite administrar a los socios del sistema",
+    "icon": "fas fa-user-cog",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      64,
+      65,
+      66,
+      67
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 10,
+  "fields": {
+    "url": "/cooperative/chauffeur/",
+    "name": "Choferes",
+    "module_type": 2,
+    "description": "Permite administrar a los choferes del sistema",
+    "icon": "fas fa-user-astronaut",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      51,
+      52,
+      53,
+      54
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 11,
+  "fields": {
+    "url": "/cooperative/place/",
+    "name": "Destinos",
+    "module_type": 2,
+    "description": "Permite administrar los lugares de las rutas",
+    "icon": "fas fa-street-view",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      68,
+      69,
+      70,
+      71
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 12,
+  "fields": {
+    "url": "/cooperative/route/",
+    "name": "Rutas",
+    "module_type": 2,
+    "description": "Permite administrar las rutas del sistema",
+    "icon": "fas fa-tasks",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      72,
+      73,
+      74,
+      75
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 13,
+  "fields": {
+    "url": "/cooperative/bus/",
+    "name": "Buses",
+    "module_type": 3,
+    "description": "Permite administrar a los buses del sistema",
+    "icon": "fas fa-bus",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      43,
+      44,
+      45,
+      46
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 14,
+  "fields": {
+    "url": "/cooperative/brand/",
+    "name": "Marcas",
+    "module_type": 3,
+    "description": "Permite administrar las marcas de los vehículos",
+    "icon": "fas fa-ring",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 15,
+  "fields": {
+    "url": "/cooperative/exemplar/",
+    "name": "Modelos",
+    "module_type": 3,
+    "description": "Permite administrar los modelos de los vehículos",
+    "icon": "fas fa-box-open",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      60,
+      61,
+      62,
+      63
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 16,
+  "fields": {
+    "url": "/cooperative/category/",
+    "name": "Categorías",
+    "module_type": 3,
+    "description": "Permite administrar las categorías de los productos",
+    "icon": "fas fa-truck-loading",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 17,
+  "fields": {
+    "url": "/cooperative/client/",
+    "name": "Clientes",
+    "module_type": 4,
+    "description": "Permite administrar a los clientes del sistema",
+    "icon": "fas fa-user-friends",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      55,
+      56,
+      57,
+      58
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 18,
+  "fields": {
+    "url": "/cooperative/sale/",
+    "name": "Ventas",
+    "module_type": 4,
+    "description": "Permite administrar las ventas de los boletos",
+    "icon": "fas fa-shopping-cart",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      95,
+      96,
+      94
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 19,
+  "fields": {
+    "url": "/cooperative/sale/client/",
+    "name": "Boletería",
+    "module_type": null,
+    "description": "Permite administrar las ventas de los boletos",
+    "icon": "fas fa-shopping-cart",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      98,
+      97
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 20,
+  "fields": {
+    "url": "/user/update/password/",
+    "name": "Cambiar password",
+    "module_type": null,
+    "description": "Permite cambiar tu password de tu cuenta",
+    "icon": "fas fa-key",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 21,
+  "fields": {
+    "url": "/user/update/profile/",
+    "name": "Editar perfil",
+    "module_type": null,
+    "description": "Permite cambiar la información de tu cuenta",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 22,
+  "fields": {
+    "url": "/cooperative/client/update/profile/",
+    "name": "Editar perfil",
+    "module_type": null,
+    "description": "Permite cambiar la información de tu cuenta",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 23,
+  "fields": {
+    "url": "/cooperative/route/client/",
+    "name": "Destinos",
+    "module_type": null,
+    "description": "Permite administrar los destinos de las rutas",
+    "icon": "fas fa-street-view",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      93
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 24,
+  "fields": {
+    "url": "/reports/bus/",
+    "name": "Buses",
+    "module_type": 5,
+    "description": "Permite ver los reportes de los buses",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 25,
+  "fields": {
+    "url": "/reports/route/",
+    "name": "Rutas",
+    "module_type": 5,
+    "description": "Permite ver los reportes de las rutas",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 26,
+  "fields": {
+    "url": "/reports/sale/",
+    "name": "Ventas",
+    "module_type": 5,
+    "description": "Permite ver los reportes de las ventas",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 27,
+  "fields": {
+    "url": "/reports/client/",
+    "name": "Clientes",
+    "module_type": 5,
+    "description": "Permite ver los reportes de los clientes",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 161,
+  "fields": {
+    "group": 2,
+    "module": 19
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 162,
+  "fields": {
+    "group": 2,
+    "module": 20
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 163,
+  "fields": {
+    "group": 2,
+    "module": 22
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 164,
+  "fields": {
+    "group": 2,
+    "module": 23
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 188,
+  "fields": {
+    "group": 1,
+    "module": 1
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 189,
+  "fields": {
+    "group": 1,
+    "module": 2
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 190,
+  "fields": {
+    "group": 1,
+    "module": 3
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 191,
+  "fields": {
+    "group": 1,
+    "module": 4
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 192,
+  "fields": {
+    "group": 1,
+    "module": 5
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 193,
+  "fields": {
+    "group": 1,
+    "module": 6
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 194,
+  "fields": {
+    "group": 1,
+    "module": 7
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 195,
+  "fields": {
+    "group": 1,
+    "module": 8
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 196,
+  "fields": {
+    "group": 1,
+    "module": 9
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 197,
+  "fields": {
+    "group": 1,
+    "module": 10
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 198,
+  "fields": {
+    "group": 1,
+    "module": 11
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 199,
+  "fields": {
+    "group": 1,
+    "module": 12
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 200,
+  "fields": {
+    "group": 1,
+    "module": 13
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 201,
+  "fields": {
+    "group": 1,
+    "module": 14
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 202,
+  "fields": {
+    "group": 1,
+    "module": 15
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 203,
+  "fields": {
+    "group": 1,
+    "module": 16
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 204,
+  "fields": {
+    "group": 1,
+    "module": 17
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 205,
+  "fields": {
+    "group": 1,
+    "module": 18
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 206,
+  "fields": {
+    "group": 1,
+    "module": 20
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 207,
+  "fields": {
+    "group": 1,
+    "module": 21
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 208,
+  "fields": {
+    "group": 1,
+    "module": 24
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 209,
+  "fields": {
+    "group": 1,
+    "module": 25
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 210,
+  "fields": {
+    "group": 1,
+    "module": 26
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 211,
+  "fields": {
+    "group": 1,
+    "module": 27
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 383,
+  "fields": {
+    "group": 2,
+    "permission": 98,
+    "module": 19
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 384,
+  "fields": {
+    "group": 2,
+    "permission": 97,
+    "module": 19
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 385,
+  "fields": {
+    "group": 2,
+    "permission": 93,
+    "module": 23
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 443,
+  "fields": {
+    "group": 1,
+    "permission": 90,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 444,
+  "fields": {
+    "group": 1,
+    "permission": 91,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 445,
+  "fields": {
+    "group": 1,
+    "permission": 92,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 446,
+  "fields": {
+    "group": 1,
+    "permission": 89,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 447,
+  "fields": {
+    "group": 1,
+    "permission": 31,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 448,
+  "fields": {
+    "group": 1,
+    "permission": 32,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 449,
+  "fields": {
+    "group": 1,
+    "permission": 33,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 450,
+  "fields": {
+    "group": 1,
+    "permission": 34,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 451,
+  "fields": {
+    "group": 1,
+    "permission": 9,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 452,
+  "fields": {
+    "group": 1,
+    "permission": 10,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 453,
+  "fields": {
+    "group": 1,
+    "permission": 11,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 454,
+  "fields": {
+    "group": 1,
+    "permission": 12,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 455,
+  "fields": {
+    "group": 1,
+    "permission": 87,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 456,
+  "fields": {
+    "group": 1,
+    "permission": 88,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 457,
+  "fields": {
+    "group": 1,
+    "permission": 86,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 458,
+  "fields": {
+    "group": 1,
+    "permission": 85,
+    "module": 6
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 459,
+  "fields": {
+    "group": 1,
+    "permission": 84,
+    "module": 6
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 460,
+  "fields": {
+    "group": 1,
+    "permission": 35,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 461,
+  "fields": {
+    "group": 1,
+    "permission": 36,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 462,
+  "fields": {
+    "group": 1,
+    "permission": 37,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 463,
+  "fields": {
+    "group": 1,
+    "permission": 38,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 464,
+  "fields": {
+    "group": 1,
+    "permission": 59,
+    "module": 8
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 465,
+  "fields": {
+    "group": 1,
+    "permission": 64,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 466,
+  "fields": {
+    "group": 1,
+    "permission": 65,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 467,
+  "fields": {
+    "group": 1,
+    "permission": 66,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 468,
+  "fields": {
+    "group": 1,
+    "permission": 67,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 469,
+  "fields": {
+    "group": 1,
+    "permission": 51,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 470,
+  "fields": {
+    "group": 1,
+    "permission": 52,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 471,
+  "fields": {
+    "group": 1,
+    "permission": 53,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 472,
+  "fields": {
+    "group": 1,
+    "permission": 54,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 473,
+  "fields": {
+    "group": 1,
+    "permission": 68,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 474,
+  "fields": {
+    "group": 1,
+    "permission": 69,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 475,
+  "fields": {
+    "group": 1,
+    "permission": 70,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 476,
+  "fields": {
+    "group": 1,
+    "permission": 71,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 477,
+  "fields": {
+    "group": 1,
+    "permission": 72,
+    "module": 12
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 478,
+  "fields": {
+    "group": 1,
+    "permission": 73,
+    "module": 12
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 479,
+  "fields": {
+    "group": 1,
+    "permission": 74,
+    "module": 12
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 480,
+  "fields": {
+    "group": 1,
+    "permission": 75,
+    "module": 12
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 481,
+  "fields": {
+    "group": 1,
+    "permission": 43,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 482,
+  "fields": {
+    "group": 1,
+    "permission": 44,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 483,
+  "fields": {
+    "group": 1,
+    "permission": 45,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 484,
+  "fields": {
+    "group": 1,
+    "permission": 46,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 485,
+  "fields": {
+    "group": 1,
+    "permission": 39,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 486,
+  "fields": {
+    "group": 1,
+    "permission": 40,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 487,
+  "fields": {
+    "group": 1,
+    "permission": 41,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 488,
+  "fields": {
+    "group": 1,
+    "permission": 42,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 489,
+  "fields": {
+    "group": 1,
+    "permission": 60,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 490,
+  "fields": {
+    "group": 1,
+    "permission": 61,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 491,
+  "fields": {
+    "group": 1,
+    "permission": 62,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 492,
+  "fields": {
+    "group": 1,
+    "permission": 63,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 493,
+  "fields": {
+    "group": 1,
+    "permission": 47,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 494,
+  "fields": {
+    "group": 1,
+    "permission": 48,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 495,
+  "fields": {
+    "group": 1,
+    "permission": 49,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 496,
+  "fields": {
+    "group": 1,
+    "permission": 50,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 497,
+  "fields": {
+    "group": 1,
+    "permission": 55,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 498,
+  "fields": {
+    "group": 1,
+    "permission": 56,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 499,
+  "fields": {
+    "group": 1,
+    "permission": 57,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 500,
+  "fields": {
+    "group": 1,
+    "permission": 58,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 501,
+  "fields": {
+    "group": 1,
+    "permission": 95,
+    "module": 18
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 502,
+  "fields": {
+    "group": 1,
+    "permission": 96,
+    "module": 18
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 503,
+  "fields": {
+    "group": 1,
+    "permission": 94,
+    "module": 18
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-03-27",
+    "hour": "17:50:30.260",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-03-27",
+    "hour": "17:52:01.680",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-03-27",
+    "hour": "17:52:13.747",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-03-27",
+    "hour": "17:52:58.152",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-03-27",
+    "hour": "17:53:06.863",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-03-27",
+    "hour": "17:54:57.119",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-03-27",
+    "hour": "17:55:25.161",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-03-27",
+    "hour": "17:58:34.299",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 9,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-03-27",
+    "hour": "17:59:53.147",
+    "remote_addr": "138.122.109.129",
+    "http_user_agent": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 10,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "20:17:46.562",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 11,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-07-03",
+    "hour": "20:46:07.412",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 12,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "21:18:32.127",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 13,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "21:19:27.124",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 14,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "21:25:56.941",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 15,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-07-03",
+    "hour": "21:34:59.566",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 16,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "21:46:56.644",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 17,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-07-03",
+    "hour": "21:47:13.924",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-03",
+    "hour": "21:48:38.997",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 19,
+  "fields": {
+    "user": 2,
+    "date_joined": "2022-07-03",
+    "hour": "21:58:11.722",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Windows 10 / Chrome 103.0.0"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "date_joined": "2022-07-04",
+    "hour": "08:59:02.722",
+    "remote_addr": "127.0.0.1",
+    "http_user_agent": "PC / Linux / Chrome 103.0.0"
+  }
+},
+{
+  "model": "user.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$SjVsB9FXwRmxu1TgYCnksh$uB1RcJ0U7zm4eE97EwwB3dFtsZwxDYLN/vkFSGiwLlg=",
+    "last_login": "2022-07-04T13:59:02.719Z",
+    "is_superuser": true,
+    "names": "William Dávila",
+    "username": "admin",
+    "dni": "0000000001",
+    "image": "",
+    "email": "adminbusiket@gmail.com",
+    "is_active": true,
+    "is_staff": true,
+    "date_joined": "2022-03-27T22:49:35.742Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Hh2jkXjeqQTfRENBdO7JW5$zXh7QKW7doiTFbCr7In2e8Ufhjvv6TXlkDWPgzAjW2w=",
+    "last_login": "2022-07-04T02:58:11.658Z",
+    "is_superuser": false,
+    "names": "Marjorie iLebsack",
+    "username": "3853995608",
+    "dni": "3853995608",
+    "image": "",
+    "email": "testaudrey_johnson67@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:02.898Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$0NU8TTajLJHg3bA7ng9GVd$Lj3ujrfkCWn/3OCD7/uwz6RRnHSbSmIXmkpZ50ejQD8=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Clementina iZiemann",
+    "username": "7929723419",
+    "dni": "7929723419",
+    "image": "",
+    "email": "testyvette_jenkins@gmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:03.210Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$MFkCOTIHwwGnp9mC24urG9$o3PBn6RPHecgUvtCGelmNiQ84X4zFdE2NpS3VCzQnkI=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Modesto iCrist",
+    "username": "8394449848",
+    "dni": "8394449848",
+    "image": "",
+    "email": "testfae6@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:03.476Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$NY3N3yQkWBYw98K0qIMGnW$n/fZV+KLDKulEOYN8y+9bGz6vztnO8pmeb9oqCB3Q+E=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Cassandra iConn",
+    "username": "4805108885",
+    "dni": "4805108885",
+    "image": "",
+    "email": "testjimmy_bradtke25@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:03.742Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$dWmoZ8qnXfgqjM0DtN5BzE$TZoDe26GoHlu6itxE7SkIW2mUg+Nwo2v4kNTJYVzFAc=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Icie iBeahan",
+    "username": "6553655217",
+    "dni": "6553655217",
+    "image": "",
+    "email": "testcaitlyn.friesen@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:04.007Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Qz0Vcx9uGkTlw4HGVnhZwi$STzIFzEKVIwrksj7beOSgPL6OfJxIzYn2h1tXb8r8jQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Olen iKing",
+    "username": "2302836451",
+    "dni": "2302836451",
+    "image": "",
+    "email": "testruss.bogan28@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:04.273Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$2An0JfQcagzDZlWCeEAlP6$q19UHvae7MV9xG8brezJu+iOpq61WyUI1b/J66bjZ00=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Lionel iJohns",
+    "username": "1847908007",
+    "dni": "1847908007",
+    "image": "",
+    "email": "testleilani.robel@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:04.554Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$BQFFWz1Mu2p56B5g2KYEHJ$esdlGDY+sYJS1U5F210u/i2wlCOBHXZfgd5byvubYaU=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Lavinia iSchmitt",
+    "username": "8040747040",
+    "dni": "8040747040",
+    "image": "",
+    "email": "testnoemy.schumm13@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:04.820Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$wMx9rgJuZAxjqflkBn8wW4$L2vSgg4onNN5tE3Uogo4dNGN4H4jj0D1BGOKOck1lOI=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Bridgette iHarris",
+    "username": "3685597789",
+    "dni": "3685597789",
+    "image": "",
+    "email": "testferne.rempel0@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:05.070Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$PQ0vAAXffttyG20pIFzwwO$JSjg6tC/tgRBZrHaJTw+ytAUYYfOcXTvALe2Ja6UsHQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Cleo iSanford",
+    "username": "8286542696",
+    "dni": "8286542696",
+    "image": "",
+    "email": "testharley20@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:05.335Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$8hI8Z7CPj471NEih54PgsV$99BArOjpDM0rZoq2VqRGRWn7qwbr67R5QkuzLPVHkT4=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Ola iCole",
+    "username": "8610480191",
+    "dni": "8610480191",
+    "image": "",
+    "email": "testreva.lindgren84@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:05.617Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$BKwkGm8ds579fH3NTPef0R$866fI38KnuPYr/dnO1YrMclfkrO/3wsVc0LeQjXk3vY=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Bell iSporer",
+    "username": "7785879863",
+    "dni": "7785879863",
+    "image": "",
+    "email": "testlew.blick34@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:05.898Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ZldyzYvtoMvs3Bu4bBS3iN$yvbJ45AnrDDtpn0r2Ue6vvmewyelZ4jOECGxd+gTP3g=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Presley iWuckert",
+    "username": "4007300979",
+    "dni": "4007300979",
+    "image": "",
+    "email": "testkira_feil@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:06.179Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$KEEBQ3bhITgG3Ggj4HvGs5$Sg5TAJC4Fwn+OGjjlpFO2vPahpx0YCOspTL3ptyhvdE=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Ahmed iKlocko",
+    "username": "7006923009",
+    "dni": "7006923009",
+    "image": "",
+    "email": "testlindsay.weber@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:06.461Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$iYjRoaaXs2cQ29XJeaz3xl$esZ0eELXEaVUJVTFLeyMVXPGzriayPhEjcMFXURMGg4=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Cali iChamplin",
+    "username": "6754446824",
+    "dni": "6754446824",
+    "image": "",
+    "email": "testneva.pollich30@yahoo.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:06.726Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$DkxN5iwraakZltlBkCRj50$Z4CcJTaLv6q80Z6IsYtRnJqiIMRa6zoTq8x7xrGcYrY=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Joel iVolkman",
+    "username": "2114000237",
+    "dni": "2114000237",
+    "image": "",
+    "email": "testnewton.schultz@hotmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:06.992Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$XHUkzuZnfAUPjMOV5ef8dA$ZRbfKzu5qYnGxBbhDtYCTwuxelh+IrWLMNE6HqXOORg=",
+    "last_login": null,
+    "is_superuser": false,
+    "names": "Samara iLabadie",
+    "username": "0880058032",
+    "dni": "0880058032",
+    "image": "",
+    "email": "testadonis_ankunding@gmail.com",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2022-03-27T22:50:07.226Z",
+    "is_change_password": false,
+    "email_reset_token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "cooperative.company",
+  "pk": 1,
+  "fields": {
+    "name": "Cooperativa BUSIKET S.A.",
+    "ruc": "9999999999999",
+    "address": "Hilll, Mayert and Wolf",
+    "mobile": "0978451213",
+    "phone": "254121212",
+    "email": "busiket2939203@gmail.com",
+    "website": "https://busiketcooperativa.com",
+    "description": "Contamos con más de 68 años de experiencia en servicio, seguridad y comodidad. Nuestras 54 unidades doble piso son modernas y equipadas con la mejor tecnología en servicio de viajes terrestres.",
+    "image": "",
+    "iva": "12.00"
+  }
+},
+{
+  "model": "cooperative.category",
+  "pk": 1,
+  "fields": {
+    "name": "INTERPROVINCIALES"
+  }
+},
+{
+  "model": "cooperative.category",
+  "pk": 2,
+  "fields": {
+    "name": "INTRAREGIONAL"
+  }
+},
+{
+  "model": "cooperative.category",
+  "pk": 3,
+  "fields": {
+    "name": "INTRAPROVINCIAL"
+  }
+},
+{
+  "model": "cooperative.category",
+  "pk": 4,
+  "fields": {
+    "name": "TROLEBÚS"
+  }
+},
+{
+  "model": "cooperative.brand",
+  "pk": 1,
+  "fields": {
+    "name": "TOYOTA"
+  }
+},
+{
+  "model": "cooperative.brand",
+  "pk": 4,
+  "fields": {
+    "name": "CHEVROLET"
+  }
+},
+{
+  "model": "cooperative.brand",
+  "pk": 5,
+  "fields": {
+    "name": "HYNDAI"
+  }
+},
+{
+  "model": "cooperative.exemplar",
+  "pk": 1,
+  "fields": {
+    "name": "2021",
+    "brand": 1
+  }
+},
+{
+  "model": "cooperative.exemplar",
+  "pk": 2,
+  "fields": {
+    "name": "2020",
+    "brand": 5
+  }
+},
+{
+  "model": "cooperative.exemplar",
+  "pk": 3,
+  "fields": {
+    "name": "2022",
+    "brand": 1
+  }
+},
+{
+  "model": "cooperative.exemplar",
+  "pk": 4,
+  "fields": {
+    "name": "2022",
+    "brand": 5
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "mobile": "3617409790",
+    "birthdate": "2022-03-27",
+    "address": "Donnelly, Mante and Douglas"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "mobile": "6267708143",
+    "birthdate": "2022-03-27",
+    "address": "Strosin-Stracke"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "mobile": "7108149792",
+    "birthdate": "2022-03-27",
+    "address": "McClure-Raynor"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "mobile": "8608269811",
+    "birthdate": "2022-03-27",
+    "address": "Barton-Greenholt"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "mobile": "7169881417",
+    "birthdate": "2022-03-27",
+    "address": "Lesch-McLaughlin"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "mobile": "5583420950",
+    "birthdate": "2022-03-27",
+    "address": "White Inc"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 7,
+  "fields": {
+    "user": 8,
+    "mobile": "4330047708",
+    "birthdate": "2022-03-27",
+    "address": "Metz-Harber"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 8,
+  "fields": {
+    "user": 9,
+    "mobile": "8947362223",
+    "birthdate": "2022-03-27",
+    "address": "Wolf Group"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 9,
+  "fields": {
+    "user": 10,
+    "mobile": "4125075985",
+    "birthdate": "2022-03-27",
+    "address": "Monahan Group"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 10,
+  "fields": {
+    "user": 11,
+    "mobile": "3948572177",
+    "birthdate": "2022-03-27",
+    "address": "Fisher and Sons"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 11,
+  "fields": {
+    "user": 12,
+    "mobile": "4676538925",
+    "birthdate": "2022-03-27",
+    "address": "Brown, Carter and Keeling"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 12,
+  "fields": {
+    "user": 13,
+    "mobile": "9563775228",
+    "birthdate": "2022-03-27",
+    "address": "Bailey, McDermott and Kuphal"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 13,
+  "fields": {
+    "user": 14,
+    "mobile": "9818919147",
+    "birthdate": "2022-03-27",
+    "address": "Ledner, Jacobs and Schuster"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 14,
+  "fields": {
+    "user": 15,
+    "mobile": "2126760745",
+    "birthdate": "2022-03-27",
+    "address": "Rath Group"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 15,
+  "fields": {
+    "user": 16,
+    "mobile": "7405120740",
+    "birthdate": "2022-03-27",
+    "address": "O'Connell and Sons"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 16,
+  "fields": {
+    "user": 17,
+    "mobile": "4997117941",
+    "birthdate": "2022-03-27",
+    "address": "Paucek and Sons"
+  }
+},
+{
+  "model": "cooperative.client",
+  "pk": 17,
+  "fields": {
+    "user": 18,
+    "mobile": "4875918171",
+    "birthdate": "2022-03-27",
+    "address": "Ernser-Oberbrunner"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 1,
+  "fields": {
+    "names": "Ryleigh iCole",
+    "dni": "2402658323",
+    "image": "",
+    "email": "testfrank34@yahoo.com",
+    "mobile": "9183432012",
+    "date_joined": "2022-03-27",
+    "address": "Zieme and Daughters",
+    "contribution": "300.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 2,
+  "fields": {
+    "names": "Sven iFunk",
+    "dni": "4347540161",
+    "image": "",
+    "email": "testpascale5@yahoo.com",
+    "mobile": "0026145392",
+    "date_joined": "2022-03-27",
+    "address": "Dare Group",
+    "contribution": "113.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 3,
+  "fields": {
+    "names": "Ellen iSchaefer",
+    "dni": "4348812717",
+    "image": "",
+    "email": "testkenton_macejkovic80@hotmail.com",
+    "mobile": "2548202185",
+    "date_joined": "2022-03-27",
+    "address": "Tillman-Harris",
+    "contribution": "105.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 4,
+  "fields": {
+    "names": "Dejah iKshlerin",
+    "dni": "5534573249",
+    "image": "",
+    "email": "testloren_yundt@gmail.com",
+    "mobile": "5274780523",
+    "date_joined": "2022-03-27",
+    "address": "Williamson-Hickle",
+    "contribution": "293.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 5,
+  "fields": {
+    "names": "Charity iBradtke",
+    "dni": "6498676788",
+    "image": "",
+    "email": "testhalie47@yahoo.com",
+    "mobile": "0596306856",
+    "date_joined": "2022-03-27",
+    "address": "Gorczany-Monahan",
+    "contribution": "177.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 6,
+  "fields": {
+    "names": "Janelle iHagenes",
+    "dni": "8924751998",
+    "image": "",
+    "email": "testturner59@gmail.com",
+    "mobile": "7008728240",
+    "date_joined": "2022-03-27",
+    "address": "Lesch and Daughters",
+    "contribution": "298.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 7,
+  "fields": {
+    "names": "Perry iLeffler",
+    "dni": "4351393166",
+    "image": "",
+    "email": "testbraxton29@hotmail.com",
+    "mobile": "7803236083",
+    "date_joined": "2022-03-27",
+    "address": "Sipes, Feeney and Hansen",
+    "contribution": "198.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 8,
+  "fields": {
+    "names": "Hollis iSwift",
+    "dni": "0765726694",
+    "image": "",
+    "email": "testfredy54@gmail.com",
+    "mobile": "3540021245",
+    "date_joined": "2022-03-27",
+    "address": "Rodriguez, Cartwright and Kuhn",
+    "contribution": "163.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 9,
+  "fields": {
+    "names": "Micah iSanford",
+    "dni": "9675644909",
+    "image": "",
+    "email": "testfrederique19@gmail.com",
+    "mobile": "0190243032",
+    "date_joined": "2022-03-27",
+    "address": "Stokes-Reichel",
+    "contribution": "280.00"
+  }
+},
+{
+  "model": "cooperative.member",
+  "pk": 10,
+  "fields": {
+    "names": "Torrey iVeum",
+    "dni": "4043086160",
+    "image": "",
+    "email": "testisidro_von@hotmail.com",
+    "mobile": "3872770524",
+    "date_joined": "2022-03-27",
+    "address": "Hilll, Mayert and Wolf",
+    "contribution": "264.00"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 1,
+  "fields": {
+    "names": "Andre iHuel",
+    "dni": "5380670181",
+    "image": "",
+    "email": "testlucius_hills53@yahoo.com",
+    "mobile": "9038338181",
+    "date_joined": "2022-03-27",
+    "address": "Stroman Inc",
+    "license": "f"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 2,
+  "fields": {
+    "names": "Madonna iLuettgen",
+    "dni": "5346763395",
+    "image": "",
+    "email": "testalexis62@hotmail.com",
+    "mobile": "3070899481",
+    "date_joined": "2022-03-27",
+    "address": "Heathcote-Schiller",
+    "license": "b"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 3,
+  "fields": {
+    "names": "Adell iRodriguez",
+    "dni": "1066343363",
+    "image": "",
+    "email": "testemie_corkery82@yahoo.com",
+    "mobile": "4191186915",
+    "date_joined": "2022-03-27",
+    "address": "Tillman, Bailey and Weimann",
+    "license": "a"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 4,
+  "fields": {
+    "names": "Edgar iJaskolski",
+    "dni": "4184985749",
+    "image": "",
+    "email": "testvan39@hotmail.com",
+    "mobile": "8731859784",
+    "date_joined": "2022-03-27",
+    "address": "Waelchi-Schuppe",
+    "license": "g"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 5,
+  "fields": {
+    "names": "Marques iBins",
+    "dni": "1263945485",
+    "image": "",
+    "email": "testabdul3@hotmail.com",
+    "mobile": "4088588096",
+    "date_joined": "2022-03-27",
+    "address": "Hoeger, Frami and Kihn",
+    "license": "g"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 6,
+  "fields": {
+    "names": "Jordon iTurcotte",
+    "dni": "0127673324",
+    "image": "",
+    "email": "testromaine21@gmail.com",
+    "mobile": "6027173460",
+    "date_joined": "2022-03-27",
+    "address": "Green-Haag",
+    "license": "a"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 7,
+  "fields": {
+    "names": "Jarvis iGrimes",
+    "dni": "9314631741",
+    "image": "",
+    "email": "testzula36@hotmail.com",
+    "mobile": "7769374802",
+    "date_joined": "2022-03-27",
+    "address": "Durgan, Sporer and Bogan",
+    "license": "g"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 8,
+  "fields": {
+    "names": "Lucinda iWaters",
+    "dni": "1310160607",
+    "image": "",
+    "email": "testjosh_batz60@gmail.com",
+    "mobile": "7800758089",
+    "date_joined": "2022-03-27",
+    "address": "Ratke LLC",
+    "license": "a"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 9,
+  "fields": {
+    "names": "Esteban iHomenick",
+    "dni": "1118976050",
+    "image": "",
+    "email": "testkiana.schowalter@gmail.com",
+    "mobile": "5537641005",
+    "date_joined": "2022-03-27",
+    "address": "Bode-Botsford",
+    "license": "a"
+  }
+},
+{
+  "model": "cooperative.chauffeur",
+  "pk": 10,
+  "fields": {
+    "names": "Cooper iGrimes",
+    "dni": "0925042740",
+    "image": "",
+    "email": "testharry65@hotmail.com",
+    "mobile": "0916012281",
+    "date_joined": "2022-03-27",
+    "address": "Brakus-Rath",
+    "license": "a"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 1,
+  "fields": {
+    "name": "MARISCAL SUCRE",
+    "category": 1,
+    "exemplar": 2,
+    "member": 2,
+    "year": 2014,
+    "plaque": "USX-465",
+    "car_seats": 52,
+    "car_disk": 1,
+    "image": "",
+    "ticket_price": "1.00"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 2,
+  "fields": {
+    "name": "FLOTA PELILEO",
+    "category": 1,
+    "exemplar": 2,
+    "member": 1,
+    "year": 2015,
+    "plaque": "QGJ-240",
+    "car_seats": 59,
+    "car_disk": 2,
+    "image": "",
+    "ticket_price": "8.00"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 3,
+  "fields": {
+    "name": "RUTA MILAGREÑAS",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2019,
+    "plaque": "GHP-109",
+    "car_seats": 55,
+    "car_disk": 3,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 4,
+  "fields": {
+    "name": "EXPRESO MILAGRO",
+    "category": 1,
+    "exemplar": 2,
+    "member": 1,
+    "year": 2017,
+    "plaque": "GNX-717",
+    "car_seats": 56,
+    "car_disk": 4,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 5,
+  "fields": {
+    "name": "EJECUTIVO EXPRESS",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2013,
+    "plaque": "IXR-833",
+    "car_seats": 52,
+    "car_disk": 5,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 6,
+  "fields": {
+    "name": "TUM",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2019,
+    "plaque": "RTG-471",
+    "car_seats": 58,
+    "car_disk": 6,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 7,
+  "fields": {
+    "name": "MARISCAL SUCRE",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2014,
+    "plaque": "LWC-833",
+    "car_seats": 60,
+    "car_disk": 7,
+    "image": "",
+    "ticket_price": "0.80"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 8,
+  "fields": {
+    "name": "EXPRESO MILAGRO",
+    "category": 1,
+    "exemplar": 2,
+    "member": 2,
+    "year": 2013,
+    "plaque": "YOL-105",
+    "car_seats": 60,
+    "car_disk": 9,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 9,
+  "fields": {
+    "name": "CITIM",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2018,
+    "plaque": "ENJ-460",
+    "car_seats": 57,
+    "car_disk": 10,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 10,
+  "fields": {
+    "name": "MARISCAL SUCRE",
+    "category": 1,
+    "exemplar": 2,
+    "member": 1,
+    "year": 2018,
+    "plaque": "QLO-878",
+    "car_seats": 50,
+    "car_disk": 11,
+    "image": "",
+    "ticket_price": "1.55"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 11,
+  "fields": {
+    "name": "SANTA ELENA",
+    "category": 1,
+    "exemplar": 1,
+    "member": 2,
+    "year": 2013,
+    "plaque": "HMJ-071",
+    "car_seats": 57,
+    "car_disk": 2,
+    "image": "",
+    "ticket_price": "5.00"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 12,
+  "fields": {
+    "name": "TRONCALEÑA",
+    "category": 1,
+    "exemplar": 1,
+    "member": 1,
+    "year": 2019,
+    "plaque": "SHM-987",
+    "car_seats": 53,
+    "car_disk": 2,
+    "image": "",
+    "ticket_price": "2.00"
+  }
+},
+{
+  "model": "cooperative.bus",
+  "pk": 13,
+  "fields": {
+    "name": "ESMERALDAS",
+    "category": 1,
+    "exemplar": 1,
+    "member": 1,
+    "year": 2018,
+    "plaque": "NFT-698",
+    "car_seats": 54,
+    "car_disk": 2,
+    "image": "",
+    "ticket_price": "8.00"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 1,
+  "fields": {
+    "name": "MILAGRO-MARISCAL SUCRE"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 2,
+  "fields": {
+    "name": "MILAGRO-PELILEO"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 3,
+  "fields": {
+    "name": "MILAGRO-GUAYAQUIL"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 4,
+  "fields": {
+    "name": "MILAGRO-TRIUNFO"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 5,
+  "fields": {
+    "name": "MILAGRO-NARANJITO"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 6,
+  "fields": {
+    "name": "MILAGRO-SANTA ELENA"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 7,
+  "fields": {
+    "name": "MILAGRO-TRONCAL"
+  }
+},
+{
+  "model": "cooperative.place",
+  "pk": 8,
+  "fields": {
+    "name": "MILAGRO-ESMERALDAS"
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 1,
+  "fields": {
+    "bus": 1,
+    "chauffeur": 1,
+    "departure_time": "04:00:00",
+    "place": 1,
+    "price": "1.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 2,
+  "fields": {
+    "bus": 2,
+    "chauffeur": 2,
+    "departure_time": "04:00:00",
+    "place": 2,
+    "price": "8.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 3,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 3,
+    "departure_time": "04:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 4,
+  "fields": {
+    "bus": 4,
+    "chauffeur": 4,
+    "departure_time": "05:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 5,
+  "fields": {
+    "bus": 5,
+    "chauffeur": 5,
+    "departure_time": "05:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 6,
+  "fields": {
+    "bus": 6,
+    "chauffeur": 6,
+    "departure_time": "06:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 7,
+  "fields": {
+    "bus": 7,
+    "chauffeur": 7,
+    "departure_time": "06:30:00",
+    "place": 4,
+    "price": "0.80",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 8,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 8,
+    "departure_time": "07:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 9,
+  "fields": {
+    "bus": 8,
+    "chauffeur": 9,
+    "departure_time": "07:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 10,
+  "fields": {
+    "bus": 9,
+    "chauffeur": 10,
+    "departure_time": "08:00:00",
+    "place": 5,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 11,
+  "fields": {
+    "bus": 10,
+    "chauffeur": 1,
+    "departure_time": "08:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 12,
+  "fields": {
+    "bus": 1,
+    "chauffeur": 2,
+    "departure_time": "09:00:00",
+    "place": 1,
+    "price": "1.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 13,
+  "fields": {
+    "bus": 11,
+    "chauffeur": 3,
+    "departure_time": "09:00:00",
+    "place": 6,
+    "price": "5.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 14,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 4,
+    "departure_time": "09:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 15,
+  "fields": {
+    "bus": 4,
+    "chauffeur": 5,
+    "departure_time": "10:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 16,
+  "fields": {
+    "bus": 5,
+    "chauffeur": 6,
+    "departure_time": "10:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 17,
+  "fields": {
+    "bus": 6,
+    "chauffeur": 7,
+    "departure_time": "11:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 18,
+  "fields": {
+    "bus": 7,
+    "chauffeur": 8,
+    "departure_time": "11:30:00",
+    "place": 4,
+    "price": "0.80",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 19,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 9,
+    "departure_time": "12:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 20,
+  "fields": {
+    "bus": 8,
+    "chauffeur": 10,
+    "departure_time": "12:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 21,
+  "fields": {
+    "bus": 9,
+    "chauffeur": 1,
+    "departure_time": "13:00:00",
+    "place": 5,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 22,
+  "fields": {
+    "bus": 10,
+    "chauffeur": 2,
+    "departure_time": "13:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 23,
+  "fields": {
+    "bus": 1,
+    "chauffeur": 3,
+    "departure_time": "14:00:00",
+    "place": 1,
+    "price": "1.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 24,
+  "fields": {
+    "bus": 12,
+    "chauffeur": 4,
+    "departure_time": "14:00:00",
+    "place": 7,
+    "price": "2.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 25,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 5,
+    "departure_time": "14:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 26,
+  "fields": {
+    "bus": 4,
+    "chauffeur": 6,
+    "departure_time": "15:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 27,
+  "fields": {
+    "bus": 5,
+    "chauffeur": 7,
+    "departure_time": "15:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 28,
+  "fields": {
+    "bus": 6,
+    "chauffeur": 8,
+    "departure_time": "16:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 29,
+  "fields": {
+    "bus": 7,
+    "chauffeur": 9,
+    "departure_time": "16:30:00",
+    "place": 4,
+    "price": "0.80",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 30,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 10,
+    "departure_time": "17:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 31,
+  "fields": {
+    "bus": 8,
+    "chauffeur": 1,
+    "departure_time": "17:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 32,
+  "fields": {
+    "bus": 9,
+    "chauffeur": 2,
+    "departure_time": "18:00:00",
+    "place": 5,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 33,
+  "fields": {
+    "bus": 10,
+    "chauffeur": 3,
+    "departure_time": "18:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 34,
+  "fields": {
+    "bus": 1,
+    "chauffeur": 4,
+    "departure_time": "19:00:00",
+    "place": 1,
+    "price": "1.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 35,
+  "fields": {
+    "bus": 13,
+    "chauffeur": 5,
+    "departure_time": "19:30:00",
+    "place": 8,
+    "price": "8.00",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 36,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 6,
+    "departure_time": "20:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 37,
+  "fields": {
+    "bus": 4,
+    "chauffeur": 7,
+    "departure_time": "20:30:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 38,
+  "fields": {
+    "bus": 5,
+    "chauffeur": 8,
+    "departure_time": "23:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 39,
+  "fields": {
+    "bus": 6,
+    "chauffeur": 9,
+    "departure_time": "23:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 40,
+  "fields": {
+    "bus": 7,
+    "chauffeur": 10,
+    "departure_time": "23:00:00",
+    "place": 4,
+    "price": "0.80",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 41,
+  "fields": {
+    "bus": 3,
+    "chauffeur": 1,
+    "departure_time": "23:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 42,
+  "fields": {
+    "bus": 8,
+    "chauffeur": 2,
+    "departure_time": "23:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 43,
+  "fields": {
+    "bus": 9,
+    "chauffeur": 3,
+    "departure_time": "23:00:00",
+    "place": 5,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.route",
+  "pk": 44,
+  "fields": {
+    "bus": 10,
+    "chauffeur": 4,
+    "departure_time": "23:00:00",
+    "place": 3,
+    "price": "1.55",
+    "state": true
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 1,
+  "fields": {
+    "client": 9,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:30.823",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "3.47",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 2,
+  "fields": {
+    "client": 8,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:31.292",
+    "date_joined": "2022-07-03",
+    "subtotal": "0.80",
+    "iva": "0.12",
+    "total_iva": "0.10",
+    "total": "0.90",
+    "cash": "0.90",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 3,
+  "fields": {
+    "client": 9,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:31.636",
+    "date_joined": "2022-07-03",
+    "subtotal": "0.00",
+    "iva": "0.12",
+    "total_iva": "0.00",
+    "total": "0.00",
+    "cash": "0.00",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 4,
+  "fields": {
+    "client": 1,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:31.808",
+    "date_joined": "2022-07-03",
+    "subtotal": "6.20",
+    "iva": "0.12",
+    "total_iva": "0.74",
+    "total": "6.94",
+    "cash": "6.94",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 5,
+  "fields": {
+    "client": 8,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:32.542",
+    "date_joined": "2022-07-03",
+    "subtotal": "6.20",
+    "iva": "0.12",
+    "total_iva": "0.74",
+    "total": "6.94",
+    "cash": "6.94",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 6,
+  "fields": {
+    "client": 8,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:33.276",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.20",
+    "iva": "0.12",
+    "total_iva": "0.38",
+    "total": "3.58",
+    "cash": "3.58",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 7,
+  "fields": {
+    "client": 17,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:33.964",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "3.47",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 8,
+  "fields": {
+    "client": 3,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:34.448",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "3.47",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 9,
+  "fields": {
+    "client": 2,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:34.901",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "3.47",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 10,
+  "fields": {
+    "client": 17,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:39:35.354",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "3.47",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 11,
+  "fields": {
+    "client": 1,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:57:10.310",
+    "date_joined": "2022-07-03",
+    "subtotal": "4.65",
+    "iva": "0.12",
+    "total_iva": "0.56",
+    "total": "5.21",
+    "cash": "5.21",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 12,
+  "fields": {
+    "client": 10,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "20:59:43.158",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "4.00",
+    "change": "0.53",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 13,
+  "fields": {
+    "client": 2,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "21:09:36.149",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "4.00",
+    "change": "0.53",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 14,
+  "fields": {
+    "client": 7,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "21:37:08.035",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "4.00",
+    "change": "0.53",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 15,
+  "fields": {
+    "client": 9,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "21:40:09.236",
+    "date_joined": "2022-07-03",
+    "subtotal": "4.65",
+    "iva": "0.12",
+    "total_iva": "0.56",
+    "total": "5.21",
+    "cash": "5.21",
+    "change": "0.00",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 16,
+  "fields": {
+    "client": 11,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "22:00:22.433",
+    "date_joined": "2022-07-03",
+    "subtotal": "6.20",
+    "iva": "0.12",
+    "total_iva": "0.74",
+    "total": "6.94",
+    "cash": "7.00",
+    "change": "0.06",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 17,
+  "fields": {
+    "client": 8,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "22:02:37.577",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "4.00",
+    "change": "0.53",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.sale",
+  "pk": 18,
+  "fields": {
+    "client": 14,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "hour_joined": "22:03:13.447",
+    "date_joined": "2022-07-03",
+    "subtotal": "3.10",
+    "iva": "0.12",
+    "total_iva": "0.37",
+    "total": "3.47",
+    "cash": "4.00",
+    "change": "0.53",
+    "card_number": null,
+    "card_titular": null,
+    "card_amount_debited": "0.00",
+    "card_type": "debito",
+    "card_year": "",
+    "card_code_verification": ""
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 1,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 1,
+    "route": 32,
+    "cant": 1,
+    "seat": 5,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 2,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 1,
+    "route": 32,
+    "cant": 1,
+    "seat": 53,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 3,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 2,
+    "route": 18,
+    "cant": 1,
+    "seat": 33,
+    "price": "0.80",
+    "subtotal": "0.80"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 4,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 4,
+    "route": 32,
+    "cant": 1,
+    "seat": 8,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 5,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 4,
+    "route": 32,
+    "cant": 1,
+    "seat": 1,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 6,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 4,
+    "route": 32,
+    "cant": 1,
+    "seat": 37,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 7,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 4,
+    "route": 32,
+    "cant": 1,
+    "seat": 19,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 8,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 5,
+    "route": 39,
+    "cant": 1,
+    "seat": 34,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 9,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 5,
+    "route": 39,
+    "cant": 1,
+    "seat": 16,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 10,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 5,
+    "route": 39,
+    "cant": 1,
+    "seat": 30,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 11,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 5,
+    "route": 39,
+    "cant": 1,
+    "seat": 38,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 12,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 6,
+    "route": 18,
+    "cant": 1,
+    "seat": 29,
+    "price": "0.80",
+    "subtotal": "0.80"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 13,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 6,
+    "route": 18,
+    "cant": 1,
+    "seat": 11,
+    "price": "0.80",
+    "subtotal": "0.80"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 14,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 6,
+    "route": 18,
+    "cant": 1,
+    "seat": 48,
+    "price": "0.80",
+    "subtotal": "0.80"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 15,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 6,
+    "route": 18,
+    "cant": 1,
+    "seat": 38,
+    "price": "0.80",
+    "subtotal": "0.80"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 16,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 7,
+    "route": 38,
+    "cant": 1,
+    "seat": 17,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 17,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 7,
+    "route": 38,
+    "cant": 1,
+    "seat": 48,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 18,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 8,
+    "route": 3,
+    "cant": 1,
+    "seat": 32,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 19,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 8,
+    "route": 3,
+    "cant": 1,
+    "seat": 7,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 20,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 9,
+    "route": 38,
+    "cant": 1,
+    "seat": 30,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 21,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 9,
+    "route": 38,
+    "cant": 1,
+    "seat": 40,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 22,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 10,
+    "route": 17,
+    "cant": 1,
+    "seat": 13,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 23,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 10,
+    "route": 17,
+    "cant": 1,
+    "seat": 19,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 24,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 11,
+    "route": 44,
+    "cant": 1,
+    "seat": 2,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 25,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 11,
+    "route": 44,
+    "cant": 1,
+    "seat": 3,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 26,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 11,
+    "route": 44,
+    "cant": 1,
+    "seat": 4,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 27,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 12,
+    "route": 44,
+    "cant": 1,
+    "seat": 5,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 28,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 12,
+    "route": 44,
+    "cant": 1,
+    "seat": 6,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 29,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 13,
+    "route": 44,
+    "cant": 1,
+    "seat": 7,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 30,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 13,
+    "route": 44,
+    "cant": 1,
+    "seat": 8,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 31,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 14,
+    "route": 44,
+    "cant": 1,
+    "seat": 15,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 32,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 14,
+    "route": 44,
+    "cant": 1,
+    "seat": 16,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 33,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 15,
+    "route": 44,
+    "cant": 1,
+    "seat": 12,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 34,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 15,
+    "route": 44,
+    "cant": 1,
+    "seat": 13,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 35,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 15,
+    "route": 44,
+    "cant": 1,
+    "seat": 14,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 36,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 16,
+    "route": 44,
+    "cant": 1,
+    "seat": 11,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 37,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 16,
+    "route": 44,
+    "cant": 1,
+    "seat": 10,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 38,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 16,
+    "route": 44,
+    "cant": 1,
+    "seat": 9,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 39,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 16,
+    "route": 44,
+    "cant": 1,
+    "seat": 1,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 40,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 17,
+    "route": 44,
+    "cant": 1,
+    "seat": 17,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 41,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 17,
+    "route": 44,
+    "cant": 1,
+    "seat": 18,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 42,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 18,
+    "route": 44,
+    "cant": 1,
+    "seat": 22,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+},
+{
+  "model": "cooperative.saledetail",
+  "pk": 43,
+  "fields": {
+    "date_joined": "2022-07-03",
+    "sale": 18,
+    "route": 44,
+    "cant": 1,
+    "seat": 23,
+    "price": "1.55",
+    "subtotal": "1.55"
+  }
+}
+]

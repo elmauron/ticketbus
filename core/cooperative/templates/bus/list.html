@@ -1,0 +1,26 @@
+{% extends 'list.html' %}
+{% load static %}
+{% block assets_list %}
+    <script src="{% static 'bus/js/list.js' %}"></script>
+{% endblock %}
+
+{% block columns %}
+    <th>Id</th>
+    <th>Nombre</th>
+    <th>Categoría</th>
+    <th>Modelo</th>
+    <th>Marca</th>
+    <th>Placa</th>
+    <th>Socio</th>
+    <th>Año</th>
+    <th>Asientos</th>
+    <th>Anden</th>
+    <th>Imagen</th>
+    <th>Precio</th>
+    <th class="text-center">Opciones</th>
+{% endblock %}
+
+{% block javascript_list %}
+
+{% endblock %}
+
