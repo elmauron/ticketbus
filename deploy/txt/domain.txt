@@ -16,9 +16,9 @@ cmd:ssh develop@142.93.200.227 -p 53847
 
 Base de datos POSTGRESQL
 ===========================================
-nombre:pegasus
+nombre:db_busiket
 username:postgres
-clave:PW8h4jtH
+clave:admindb123
 puerto:5432
 
 Puertos habilitados para el servidor:
