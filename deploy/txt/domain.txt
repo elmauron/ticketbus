@@ -1,0 +1,40 @@
+Servidor Root
+==========================================
+username:root
+host:142.93.200.227
+clave:Secur3P@ss
+puerto:53847
+cmd:ssh root@142.93.200.227 -p 53847
+
+Servidor User
+===========================================
+username:develop
+host:142.93.200.227
+clave:H3ll0Worl@@?
+puerto:53847
+cmd:ssh develop@142.93.200.227 -p 53847
+
+Base de datos POSTGRESQL
+===========================================
+nombre:pegasus
+username:postgres
+clave:PW8h4jtH
+puerto:5432
+
+Puertos habilitados para el servidor:
+===========================================
+To                         Action      From
+--                         ------      ----
+18473                      ALLOW       Anywhere
+5432                       ALLOW       Anywhere
+Nginx Full                 ALLOW       Anywhere
+18473 (v6)                 ALLOW       Anywhere (v6)
+5432 (v6)                  ALLOW       Anywhere (v6)
+Nginx Full (v6)            ALLOW       Anywhere (v6)
+
+Sitio Web
+===========================================
+https://miticket-bus.com.ar
+
+user:0914966221
+clave:0914966221
